@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <header>
+    <dl class="menu" style="text-align:center; ">
+        <button onclick="location.href='file:///home/joswin/Documents/vs%20code/steer-clear/PRODIGY_WD_01/Main.html'">Home</button>
+    </dl>
+</header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2e2544;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .card {
+            background: rgb(247, 255, 183);
+            width: 300px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            overflow: hidden;
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card h2 {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .menu {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 200px; 
+    justify-content: center;
+    align-items: center;
+
+}
+.menu button {
+    background-color: rgb(0, 0, 0); 
+    color: #ff9b9b; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 17px;
+    text-transform: uppercase; 
+    outline: none; 
+    position: relative;
+    transition: all 0.3s ease-in-out; 
+    border-radius: 20PX;
+}
+.menu button:hover {
+    color: rgb(112, 138, 255); 
+    box-shadow: 0 0 10px 2px #6282ff, 0 0 20px 5px #ffffff; 
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff; 
+}
+.menu button:focus, .menu button:active {
+    box-shadow: 0 0 15px 3px #ffffff, 0 0 30px 10px #ffffff;
+}
+header{
+	width:1920px;
+	height:50px;
+	background-color:#3c3c44;
+	border-radius:60px;
+	align-items:center;
+	font: italic;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.9)
+}
+    </style>
+</head>
+<body background="red">
+
+    <h1>Car Information</h1>
+    
+    <div class="container">
+        <!-- Tata Harrier -->
+        <div class="card">
+           
+            <div class="card-content">
+                <h2>TATA Harrier</h2>
+                <p>Engine: 2.0L Diesel</p>
+                <p>Power: 170 PS</p>
+                <p>Mileage: 16.35 km/l</p>
+                <P>ODO:34000 KM</P>
+                <P>Owner:1st owner</P>
+                <p>Model year:2023</p>
+                <p>For more details dial:7996023299</p>
+                <p>email:joswintauro2884@gmail.com</p>
+            </div>
+        </div>
+
+        <!-- Maruti Suzuki Fronx -->
+        <div class="card">
+            
+            <div class="card-content">
+                <h2> SUZUKI Fronx</h2>
+                <p>Engine: 1.2L Petrol / 1.0L Turbo</p>
+                <p>Power: 90 PS / 100 PS</p>
+                <p>Mileage: 20-22 km/l</p>
+                <P>ODO:57000 KM</P>
+                <P>Owner:1st owner</P>
+                <p>Model year:2022</p>
+                <p>For more details dial:7996023299</p>
+                <p>email:joswintauro2884@gmail.com</p>
+            </div>
+        </div>
+
+        <!-- Hyundai Creta -->
+        <div class="card">
+            
+            <div class="card-content">
+                <h2>HYUNDAI Creta</h2>
+                <p>Engine: 1.5L Petrol / Diesel</p>
+                <p>Power: 115-160 PS</p>
+                <p>Mileage: 19-21 km/l</p>
+                <P>ODO:84000 KM</P>
+                <P>Owner:2st owner</P>
+                <p>Model year:2021</p>
+                <p>For more details dial:7996023299</p>
+                <p>email:joswintauro2884@gmail.com</p>
+            </div>
+        </div>
+
+        <!-- Kia Seltos -->
+        <div class="card">
+           
+            <div class="card-content">
+                <h2>KIA Seltos</h2>
+                <p>Engine: 1.5L Petrol / Diesel</p>
+                <p>Power: 115-160 PS</p>
+                <p>Mileage: 18-20 km/l</p>
+                <P>ODO:14000 KM</P>
+                <P>Owner:1st owner</P>
+                <p>Model year:2018</p>
+                <p>For more details dial:7996023299</p>
+                <p>email:joswintauro2884@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <header>
+    <dl class="menu" style="text-align:center; ">
+        <button onclick="location.href='file:///home/joswin/Documents/vs%20code/steer-clear/PRODIGY_WD_01/Main.html'">Home</button>
+    </dl>
+</header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .card {
+            background: white;
+            width: 300px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            overflow: hidden;
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card h2 {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .menu {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 200px; 
+    justify-content: center;
+    align-items: center;
+
+}
+.menu button {
+    background-color: black; 
+    color: #b6b0ec; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 17px;
+    text-transform: uppercase; 
+    outline: none; 
+    position: relative;
+    transition: all 0.3s ease-in-out; 
+}
+.menu button:hover {
+    color: rgb(112, 138, 255); 
+    box-shadow: 0 0 10px 2px #6282ff, 0 0 20px 5px #ffffff; 
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff; 
+}
+.menu button:focus, .menu button:active {
+    box-shadow: 0 0 15px 3px #ffffff, 0 0 30px 10px #ffffff;
+}
+header{
+	width:1920px;
+	height:50px;
+	background-color:#3c3c44;
+	border-radius:60px;
+	align-items:center;
+	font: italic;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.9)
+}
+    </style>
+</head>
+<body background="red">
+
+    <h1>Car Information</h1>
+    
+    <div class="container">
+        <!-- Tata Harrier -->
+        <div class="card">
+            <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Tata/Harrier/11159/1699602938828/front-left-side-47.jpg" alt="Tata Harrier">
+            <div class="card-content">
+                <h2>Tata Harrier</h2>
+                <p>Engine: 2.0L Diesel</p>
+                <p>Power: 170 PS</p>
+                <p>Mileage: 16.35 km/l</p>
+            </div>
+        </div>
+
+        <!-- Maruti Suzuki Fronx -->
+        <div class="card">
+            <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/FRONX/10491/1682310983282/front-left-side-47.jpg" alt="Maruti Suzuki Fronx">
+            <div class="card-content">
+                <h2>Maruti Suzuki Fronx</h2>
+                <p>Engine: 1.2L Petrol / 1.0L Turbo</p>
+                <p>Power: 90 PS / 100 PS</p>
+                <p>Mileage: 20-22 km/l</p>
+            </div>
+        </div>
+
+        <!-- Hyundai Creta -->
+        <div class="card">
+            <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Hyundai/Creta/11278/1704875252033/front-left-side-47.jpg" alt="Hyundai Creta">
+            <div class="card-content">
+                <h2>Hyundai Creta</h2>
+                <p>Engine: 1.5L Petrol / Diesel</p>
+                <p>Power: 115-160 PS</p>
+                <p>Mileage: 19-21 km/l</p>
+            </div>
+        </div>
+
+        <!-- Kia Seltos -->
+        <div class="card">
+            <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Kia/Seltos/11154/1689672594522/front-left-side-47.jpg" alt="Kia Seltos">
+            <div class="card-content">
+                <h2>Kia Seltos</h2>
+                <p>Engine: 1.5L Petrol / Diesel</p>
+                <p>Power: 115-160 PS</p>
+                <p>Mileage: 18-20 km/l</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
